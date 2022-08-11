@@ -1,5 +1,5 @@
 params:
-  epochs: 30
+  epochs: 1
   batch_size: 32
   no_classes: 10
   input_shape: [28,28]
@@ -12,6 +12,7 @@ params:
 artifacts:
   artifacts_dir: artifacts
   model_dir: model
+  model_name: model.h5
   plot_dir: plots
   checkpoint_dir: checkpoints
 
